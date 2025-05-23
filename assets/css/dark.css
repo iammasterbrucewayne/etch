@@ -48,6 +48,31 @@ main#content ul#posts li a:hover {
 main#content header#post-header div {
     color: #a7a7a7;
 }
+
+/* Footer dark mode styles */
+footer#footer {
+    color: #a7a7a7;
+}
+
+footer#footer .github-link a {
+    color: #e0e0e0;
+}
+
+footer#footer .github-link a:hover {
+    color: #21c7ff;
+}
+
+/* Edit page dark mode styles */
+main#content .edit-page a {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #e0e0e0;
+}
+
+main#content .edit-page a:hover {
+    color: #ffffff;
+}
+
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}
